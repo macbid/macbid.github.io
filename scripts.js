@@ -1,5 +1,5 @@
 $(window).resize(function(){
-    $(".twitter-timeline").height($(window).height()-120);
+    $(".twitter-timeline").height($(window).height()-210);
 });
 
 $(window).load(function(){
