@@ -40,8 +40,3 @@ a {
 	display: block;
 	margin: 0 auto 5px auto;
 }
-
-div.contents{
-	position:relative;
-	z-index:1000;
-}
