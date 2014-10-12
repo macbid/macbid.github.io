@@ -30,7 +30,12 @@ var config = {
 };
 
 function dateFormatter(date) {
-	return date.toLocaleString();
+	var offset = 4;
+
+	var utc = date.getTime() + (date.getTimezoneOffset() * 60000);
+	var newDate = new Date(utc + (3600000*offset));
+	
+	return newDate.toLocaleString();
 }
 
 function handleTweets(tweets){    
@@ -57,7 +62,6 @@ function add(tweet){
 	if (date <= datet){
 		return false;
 	}
-	console.log("ok2");
 	
 	$('li').each(function(){
 		var idt = $(this).find('input').val();
