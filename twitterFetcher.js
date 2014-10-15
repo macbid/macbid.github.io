@@ -210,10 +210,10 @@ var twitterFetcher = function() {
         if (showInteractionLinks) {
           op += '<div class="interact"><a href="https://twitter.com/intent/' +
               'tweet?in_reply_to=' + tids[n] + '" class="twitter_reply_icon">' +
-              'Reply</a><a href="https://twitter.com/intent/retweet?tweet_id=' +
-              tids[n] + '" class="twitter_retweet_icon">Retweet</a>' +
+              '<span class="icon"></span><span class="text">Répondre</span></a><a href="https://twitter.com/intent/retweet?tweet_id=' +
+              tids[n] + '" class="twitter_retweet_icon"><span class="icon"></span><span class="text">Retweet</span></a>' +
               '<a href="https://twitter.com/intent/favorite?tweet_id=' +
-              tids[n] + '" class="twitter_fav_icon">Favorite</a></div>';
+              tids[n] + '" class="twitter_fav_icon"><span class="icon"></span><span class="text">Favori</span></a></div>';
         }
         if (parseLinks) {
           if (printUser) {
