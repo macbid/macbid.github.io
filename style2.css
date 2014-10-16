@@ -23,7 +23,7 @@ a {
 }
 
 #twitter {
-	max-width: 700px;
+  margin: 0 10px;
 }
 
 #div-gpt-ad-1410004493339-0 {
@@ -48,7 +48,7 @@ div.contents{
 ul li {
   list-style: none;
   overflow: hidden;
-  border-bottom: thin solid #333333;
+  border-bottom: thin solid #666666;
   padding-bottom: 20px;
   margin: 20px 0px 10px 0px;
 }
