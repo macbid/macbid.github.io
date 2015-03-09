@@ -1,7 +1,7 @@
 /* https://github.com/jasonmayes/Twitter-Post-Fetcher */
 var twitterFetcher = function() {
   var domNode = '';
-  var maxTweets = 20;
+  var maxTweets = 50;
   var parseLinks = true;
   var queue = [];
   var inProgress = false;
