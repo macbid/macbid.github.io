@@ -4,7 +4,7 @@ var config = {
   //"id": '502160051226681344', //test avec photos de chat
   "id": '507966006153584640', //test fil macbidouille
   "enableLinks": true,
-  "maxTweets": 50,
+  "maxTweets": 20,
   "showImages": true,
   "showUser": false,
   "showTime": true,
