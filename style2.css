@@ -1,6 +1,6 @@
 body {
-   background: #ffffff url(banners/macway.jpg) scroll no-repeat 50% top; 
-   cursor: pointer; 
+   /*background: #ffffff url(banners/macway.jpg) scroll no-repeat 50% top; 
+   cursor: pointer; */
 }
 
 h1 {
@@ -37,7 +37,8 @@ a {
 
 div.contents{
 	width: 728px;
-  margin: 0 auto;
+  /*margin: 165px auto;*/
+  margin: 0px auto;
   cursor: default;
 }
 
