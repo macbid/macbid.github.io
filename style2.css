@@ -1,6 +1,21 @@
-body {
-   /*background: #070022 url(banners/macway.jpg) scroll no-repeat 50% top; */
-   cursor: pointer; 
+html {
+    background-color: #070022;
+    padding-top: 165px;
+}
+
+.arch {
+    background-color: #070022;
+    background-image: url(banners/macway.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width:  100%;
+    margin: 0 auto;
+    position: absolute;
+    top:   0;
+    right: 0;
+    left:  0;
+    z-index: -1;
 }
 
 h1 {
@@ -37,9 +52,10 @@ a {
 
 div.contents{
 	width: 728px;
-  margin: 165px auto;
-  /*margin: 0px auto;*/
+  margin: 0px auto;
   cursor: default;
+  background-color: white;
+  padding-bottom: 20px;
 }
 
 #twitter ul {

@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="style2.css">
 <link rel="shortcut icon" href="favicon.ico">
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="banner.js"></script>
+<!-- <script src="banner.js"></script> -->
 <script src="twitterFetcher.js"></script>
 <script src="scripts2.js"></script>
 
@@ -48,8 +48,25 @@ googletag.enableServices();
 
 <!-- END GOOGLE ANALYTICS & ADS -->
 
+<!-- ARCH MANAGEMENT -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var html = document.documentElement;
+        var body = document.body;
+
+        var height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+
+        document.getElementById('arch').style.height = height + 'px';
+    });
+</script>
+
+<!-- END ARCH MANAGEMENT -->
+
 </head>
-<body background="banners/macway.jpg">
+<body>
+
+<a id="arch" href="http://macway.commander1.com/c3/?tcs=1377&amp;chn=display&amp;src=macbidouille&amp;url=http://www.macway.com/fr/macway-expo?p=4&amp;utm_source=4&amp;utm_medium=BLG&amp;utm_campaign=MacBidouille&amp;utm_content=mwexpo" target="_blank" class="arch"></a>
 
 <div class="contents">
 <img src="keynote.png" alt="Live Apple Keynote par MacBidouille" class="logo-top">
@@ -62,12 +79,12 @@ googletag.display('div-gpt-ad-1410004493339-0'); });
 </script>
 </div>
 
-<h1>Ne pas rafraichir cette page - les brèves sont chargées dynamiquement. Toutes les brèves sont <a href="https://twitter.com/macbid">ICI</a>.</h1>
+<h1>Ne pas rafraichir cette page - les brèves sont chargées dynamiquement.</h1>
 <div id="twitter">
 	<ul>
 	</ul>
 </div>
-<div class="foot">MacBidouille / HardMac 2001 - 2014. <a href="http://www.macbidouille.com/contact">Contactez-nous.</a></div>
+<div class="foot">MacBidouille / HardMac 2001 - 2015. <a href="http://www.macbidouille.com/contact">Contactez-nous.</a></div>
 </div>
 
 </body>
