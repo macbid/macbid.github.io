@@ -128,7 +128,7 @@ var twitterFetcher = function() {
       var x = 0;
 
       if (supportsClassName) {
-        var tmp = div.getElementsByClassName('timeline-Tweet');
+        var tmp = div.getElementsByClassName('tweet');
         while (x < tmp.length) {
           if (tmp[x].getElementsByClassName('retweet-credit').length > 0) {
             rts.push(true);
