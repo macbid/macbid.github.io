@@ -24,6 +24,7 @@ function dateFormatter(date) {
 }
 
 function handleTweets(tweets){    
+	console.log(tweets);
 	for(t in tweets) {
 		if (add(tweets[t])){
 			if (first){
