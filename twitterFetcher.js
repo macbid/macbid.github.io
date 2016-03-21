@@ -179,6 +179,7 @@ var twitterFetcher = function() {
       }
 
       var arrayTweets = [];
+      console.log(tweets);
       var n = tweets.length-1;
       var x = -1;
       while(n > x) {
